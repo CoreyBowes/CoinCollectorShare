@@ -7,11 +7,6 @@ import flixel.util.FlxSpriteUtil;
 import flixel.math.FlxMath;
 import flixel.util.FlxColor;
 
-/**
- * ...
- * @author Zaphod
- */
-
 enum CoinType
 {
     Copper;

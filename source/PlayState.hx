@@ -345,11 +345,11 @@ class PlayState extends FlxState
 	{
         // Degugger display.
         /*
+        */
         FlxG.debugger.visible = true;
         FlxG.debugger.setLayout(MICRO);
         // FlxG.debugger.drawDebug = true;
         FlxG.log.redirectTraces = true;
-        */
 
         // #region Region example
         // #endregion

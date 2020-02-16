@@ -9,6 +9,7 @@ import flixel.math.FlxMath;
 /**
  * ...
  * @author Zaphod
+ * Copied by CharType from the Ship class in the Asteroids example by Zaphod.
  */
 class PlayerShip extends FlxSprite
 {
@@ -19,11 +20,11 @@ class PlayerShip extends FlxSprite
 	{
 		super(Math.floor(FlxG.width / 2 - 8), Math.floor(FlxG.height / 2 - 8));
 		
-		#if flash
-		loadRotatedGraphic("assets/images/ship.png", 32, -1, false, true);
-		#else
-		loadGraphic("assets/images/ship.png");
-		#end
+		// #if flash
+		// loadRotatedGraphic("assets/images/ship.png", 32, -1, false, true);
+		// #else
+		loadGraphic("assets/images/ship.png"); // 100x100 pixels
+		// #end
 		
 		width *= 0.75;
 		height *= 0.75;

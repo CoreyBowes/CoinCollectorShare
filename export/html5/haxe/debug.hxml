@@ -11,21 +11,25 @@
 -cp /usr/local/lib/haxe/lib/hscript/2,2,0
 -D hscript=2.2.0
 -cp source
--cp /usr/local/lib/haxe/lib/openfl/8,4,1/externs/flash
 -D MAC_USE_CURRENT_SDK=1
--D native-trace
 -D tools=7.0.0
--D flash-use-stage
+-D lime-canvas
+-D FLX_NO_DEBUG
+-D howlerjs
 -D no-compilation
--D openfl-flash
--D fdb
+-D openfl-html5
+-D NAPE_RELEASE_BUILD
+-D lime-webgl
+-D lime-dom
+-D lime-howlerjs
+-D lime-html5
+-D html5
 -D web
+--remap flash:openfl
 --macro flixel.system.macros.FlxDefines.run()
 --connect
 6000
--cp export/flash
--swf-lib obj/assets.swf
--swf-version 11.8
--swf export/flash/bin/RelaxingGame.swf
--cp export/flash/haxe
--D final
+-js export/html5/bin/RelaxingGame.js
+-cp export/html5/haxe
+-D html5
+-debug

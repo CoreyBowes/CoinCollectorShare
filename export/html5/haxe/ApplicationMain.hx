@@ -49,7 +49,7 @@ import haxe.macro.Expr;
 			windows: [
 				
 				{
-					allowHighDPI: true,
+					allowHighDPI: false,
 					alwaysOnTop: false,
 					antialiasing: 0,
 					background: 0,
@@ -64,7 +64,7 @@ import haxe.macro.Expr;
 					maximized: false,
 					minimized: false,
 					parameters: {},
-					resizable: true,
+					resizable: false,
 					stencilBuffer: true,
 					title: "RelaxingGame",
 					vsync: false,
@@ -120,7 +120,7 @@ import haxe.macro.Expr;
 		
 		var attributes:lime.ui.WindowAttributes = {
 			
-			allowHighDPI: true,
+			allowHighDPI: false,
 			alwaysOnTop: false,
 			borderless: false,
 			// display: 0,
@@ -132,7 +132,7 @@ import haxe.macro.Expr;
 			maximized: false,
 			minimized: false,
 			parameters: {},
-			resizable: true,
+			resizable: false,
 			title: "RelaxingGame",
 			width: 800,
 			x: null,
