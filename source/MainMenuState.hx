@@ -4,6 +4,10 @@ import flixel.FlxState;
 import flixel.FlxSprite;
 import flixel.FlxG;
 
+/**
+ * ...
+ * @author CharType
+ */
 class MainMenuState extends FlxState
 {
     // Declaring variables.

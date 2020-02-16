@@ -38,6 +38,10 @@ enum TetherMode
     TetheredTwoWays;
 }
 
+/**
+ * ...
+ * @author CharType
+ */
 class PlayState extends FlxState
 {
     // Declaring variables.

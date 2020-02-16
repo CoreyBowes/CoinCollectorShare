@@ -14,6 +14,10 @@ import haxe.Unserializer;
 import flixel.input.keyboard.FlxKey;
 // import flixel.input.actions.FlxActionInput;
 
+/**
+ * ...
+ * @author CharType
+ */
 class Reg
 {
     public static var _gravity:Float = 600; // Mostly for platformers.

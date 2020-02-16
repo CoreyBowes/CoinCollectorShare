@@ -18,6 +18,10 @@ enum Layout
     Vertical;
 }
 
+/**
+ * ...
+ * @author CharType
+ */
 class Menu extends FlxSpriteGroup
 {
     public var _isVertical:Bool = true;

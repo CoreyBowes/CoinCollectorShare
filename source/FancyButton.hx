@@ -3,6 +3,10 @@ package;
 import flixel.ui.FlxButton;
 import flixel.util.FlxColor;
 
+/**
+ * ...
+ * @author CharType
+ */
 class FancyButton extends FlxButton
 {
     public var _isSelected = false;

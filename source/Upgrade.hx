@@ -2,6 +2,10 @@ package;
 
 import flixel.math.FlxPoint;
 
+/**
+ * ...
+ * @author CharType
+ */
 class Upgrade
 {
     public var _level:Int = 0;

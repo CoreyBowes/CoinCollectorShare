@@ -11,7 +11,7 @@ import flixel.group.FlxGroup;
 
 /**
  * ...
- * @author Zaphod Beeblebrox (change this)
+ * @author CharType
  */
 class FadingParticle extends FlxSprite
 {

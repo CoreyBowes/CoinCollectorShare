@@ -10,7 +10,7 @@ import flixel.group.FlxGroup;
 
 /**
  * ...
- * @author Zaphod Beeblebrox (change this)
+ * @author CharType
  */
 class Firework extends FlxEmitter
 {

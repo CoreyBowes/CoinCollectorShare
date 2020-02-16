@@ -7,6 +7,10 @@ import flixel.input.keyboard.FlxKey;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
 
+/**
+ * ...
+ * @author CharType
+ */
 class InstructionsState extends FlxState
 {
 	override public function create():Void

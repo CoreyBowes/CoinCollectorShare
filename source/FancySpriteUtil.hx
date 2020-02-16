@@ -9,6 +9,10 @@ import flixel.util.FlxColor;
 import flixel.FlxG;
 import flixel.math.FlxMath;
 
+/**
+ * ...
+ * @author CharType
+ */
 class FancySpriteUtil
 {
     static public function angleDifferenceFromOrigin(pointOne:FlxPoint, pointTwo:FlxPoint):Float

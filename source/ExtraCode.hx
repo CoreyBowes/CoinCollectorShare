@@ -1,4 +1,8 @@
 // Code that I'm no longer using, but I want to save in case I need again. Mostly testing and debugging.
+/**
+ * ...
+ * @author CharType
+ */
 /*
         trace("Saving game.");
         trace("Saving the collectible at: "+_currentCollectible.x+", "+_currentCollectible.y);

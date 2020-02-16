@@ -10,6 +10,10 @@ import flixel.group.FlxSpriteGroup;
 import flixel.math.FlxPoint;
 import flixel.text.FlxText;
 
+/**
+ * ...
+ * @author CharType
+ */
 class FancyDraw extends FlxSprite
 {
     public static var _blackLine:LineStyle = {color: FlxColor.BLACK, thickness: 2};
@@ -256,6 +260,21 @@ class FancyDraw extends FlxSprite
         FlxSpriteUtil.drawLine(returnIcon, semicircleX+semicircleRadius*0.75, semicircleY-semicircleRadius,
         iconWidth, semicircleY-semicircleRadius+semicircleRadius*.25, _blackLineMini);
         FlxSpriteUtil.drawPolygon(returnIcon, rayVertices, FlxColor.YELLOW);
+        // FlxSpriteUtil.drawRect(this, 0, spikeDepth, width, (height-spikeDepth), FlxColor.WHITE);
+
+        return returnIcon;
+    }
+
+    static public function getTriangleRightFacingIcon(?iconWidth=100, ?iconHeight=100, ?iconColor=FlxColor.WHITE):FlxSprite
+    {
+        var returnIcon:FlxSprite = new FlxSprite();
+        returnIcon.makeGraphic(iconWidth, iconHeight, FlxColor.TRANSPARENT, true);
+
+        var triangleVertices:Array<FlxPoint> = new Array();
+        triangleVertices.push(new FlxPoint(0, iconHeight));
+        triangleVertices.push(new FlxPoint(0, 0));
+        triangleVertices.push(new FlxPoint(iconWidth, iconHeight/2));
+        FlxSpriteUtil.drawPolygon(returnIcon, triangleVertices, iconColor);
         // FlxSpriteUtil.drawRect(this, 0, spikeDepth, width, (height-spikeDepth), FlxColor.WHITE);
 
         return returnIcon;

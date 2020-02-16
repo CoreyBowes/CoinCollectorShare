@@ -5,6 +5,10 @@ package;
 import flixel.math.FlxPoint;
 import PlayState.TetherMode;
 
+/**
+ * ...
+ * @author CharType
+ */
 class SaveData
 {
     public var _playerShipPosition:FlxPoint;

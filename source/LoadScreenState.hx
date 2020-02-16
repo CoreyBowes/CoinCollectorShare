@@ -9,6 +9,10 @@ import flixel.text.FlxText;
 import flixel.util.FlxSpriteUtil;
 import flixel.util.FlxColor;
 
+/**
+ * ...
+ * @author CharType
+ */
 class LoadScreenState extends FlxState
 {
     // Declaring variables.
