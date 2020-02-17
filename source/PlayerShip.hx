@@ -27,7 +27,7 @@ class PlayerShip extends FlxSprite
 		loadGraphic("assets/images/ship.png"); // 100x100 pixels
 		#end
 
-        // loadGraphicFromSprite(FancyDraw.getTriangleRightFacingIcon());
+        // loadGraphicFromSprite(FancyDraw.getTriangleRightFacingIcon()); // Using this instead of a loaded image file doesn't help the lag problem.
 		
 		width *= 0.75;
 		height *= 0.75;
